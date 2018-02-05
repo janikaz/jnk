@@ -1,0 +1,51 @@
+body{
+    background: none;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.column{
+    display: inline-block;
+    padding: 30px 0 0 70px;
+}
+p{
+    text-align: left;
+    margin-left: 50px;
+}
+.center-line {
+    width: 1000px;
+    height: 1px;
+    border-top: 1px solid lightgrey;
+    margin: 0 auto;
+    padding: center;
+}
+article{
+  float: left;
+  width: 49%;
+}
+label{
+    display: inline-block;
+    width: 120px;
+}
+input{
+    display: inline-block;
+}
+.form-group{
+  margin: 15px;
+}
+button{
+    color: white;
+    background: lightblue;
+    padding: 10px 20px;
+    display: block;
+    margin-top: 20px;
+}
+button:hover{
+    padding: 5px;
+    color: lightblue;
+    background-color: white;
+}
